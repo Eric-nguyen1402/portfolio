@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -52,8 +52,8 @@ const CONFIG = {
           title: 'Pose-based EKF SLAM for Robot Localization',
           description:
             'A study on pose-based SLAM using EKF for robot localization, specifically focusing on a differential drive robot equipped with Lidar, IMU, and wheel velocity sensors. The mapping algorithm utilized is the Iterative Closest Point (ICP), while the Extended Kalman filter is employed for state estimation.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          youtubeUrl:
+            'https://youtu.be/XZIpZKQPmBY',
           link: 'https://eric-nguyen1402.github.io/pose-based-EKF-slam.github.io/',
         },
         {
@@ -84,7 +84,6 @@ const CONFIG = {
     linkedin: 'Hoang Huy(Eric) Nguyen',
     GoogleScholar: 'Huy Hoang Nguyen',
     youtube: 'ericnguyen9607',
-    website: 'https://www.arifszn.com',
     phone: '',
     email: 'skynguyen1402@gmail.com',
   },
@@ -166,6 +165,12 @@ const CONFIG = {
       from: 'September 2018',
       to: 'January 2020',
     },
+    {
+      institution: 'HCMC University of Technology and Education',
+      degree: 'Bachelor of Engineering in Mechatronic Engineering ',
+      from: 'September 2015',
+      to: 'June 2018',
+    },
   ],
   publications: [
     {
@@ -175,7 +180,7 @@ const CONFIG = {
       authors: 'Huy Hoang Nguyen,  Minh Nhat Vu, Florian Beck, Gerald Ebmer, Anh Nguyen, Andreas Kugi',
       link: 'https://language-driven-closed-loop-grasping.github.io/',
       description:
-        'a modular zero-shot framework for language-driven manipulation of (dynamic) objects through a closed-loop control system with real-time trajectory replanning and an online 6D object pose localization',
+        'A modular zero-shot framework for language-driven manipulation of (dynamic) objects through a closed-loop control system with real-time trajectory replanning and an online 6D object pose localization',
     },
     {
       title: 'The Development of a Machine Vision System for Postharvest Processing of Achacha Fruits',
@@ -188,11 +193,11 @@ const CONFIG = {
     },
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many articles to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
