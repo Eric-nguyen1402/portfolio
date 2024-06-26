@@ -33,20 +33,44 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Dynamic Robotic Grasping: A Combination of Real-Time Trajectory Planning and ML-Based Novel Object Pose Detection',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This thesis explores integrating real-time grasping with 6-DoF pose estimation and online trajectory optimization to improve performance in challenging conditions like poor lighting and novel objects, crucial for industrial manufacturing.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://eric-nguyen1402.github.io/closedloop.github.io/',
         },
         {
-          title: 'Project Name',
+          title: 'Autonomous Navigation of Mobile Robots: Integrating Lidar, RRT*,and Frontier-Based Algorithms for Path Planning, Exploration, and Motion Control',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A comprehensive approach that combines Lidar sensing, Rapidly-exploring Random Trees* (RRT*), and Frontier-Based algorithms to achieve enhanced path planning, exploration, and motion control for mobile robots. The integration of these techniques addresses the challenges of obstacle avoidance, real-time decision-making, and efficient exploration.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://eric-nguyen1402.github.io/autonomous-navigation.github.io/',
+        },
+        {
+          title: 'Pose-based EKF SLAM for Robot Localization',
+          description:
+            'A study on pose-based SLAM using EKF for robot localization, specifically focusing on a differential drive robot equipped with Lidar, IMU, and wheel velocity sensors. The mapping algorithm utilized is the Iterative Closest Point (ICP), while the Extended Kalman filter is employed for state estimation.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://eric-nguyen1402.github.io/pose-based-EKF-slam.github.io/',
+        },
+        {
+          title: 'Real Time 2D Pose Estimation For Robot Parts Picking',
+          description:
+            'This project aims to develop a real-time 2D pose estimation system for colored objects using computer vision techniques. The system utilizes a color camera to capture video of a scene with different colored objects placed on a plane.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://eric-nguyen1402.github.io/realtime-2d-pose-estimation.github.io/',
+        },
+        {
+          title: 'Development and Implementation of a Kinematic Control System for a Mobile Manipulator',
+          description:
+            'The design and implementation of a kinematic control system for a mobile manipulator, specifically a differential drive robot (Kobuki Turtlebot 2) with a 4 DOF manipulator (uFactory uArm Swift Pro). The goal is to develop a task priority resolution algorithm to control the robot’s movements efficiently.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://eric-nguyen1402.github.io/kinematic-control-system.github.io/',
         },
       ],
     },
@@ -80,60 +104,87 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Vienna University of Technology',
+      position: 'Visiting Researcher',
+      from: 'January 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.tuwien.at/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'The Construct',
+      position: 'A Robotics Ambassador',
+      from: 'December 2023',
+      to: 'June 2024',
+      companyLink: 'https://www.theconstruct.ai/',
     },
-  ],
-  certifications: [
+     {
+      company: 'Metalmaker 3D Company',
+      position: 'Embedded AI Engineer Team Leader',
+      from: 'June 2023',
+      to: 'August 2023',
+      companyLink: 'https://metalmaker3d.com/',
+    },
+     {
+      company: 'MPF Drive – Unique Product & Design Company',
+      position: 'Embedded Software Engineer',
+      from: 'February 2020',
+      to: 'February 2022',
+      companyLink: 'https://www.mpfdrive.tw/public/index.php',
+    },
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Southern Taiwan University of Science and Technology',
+      position: 'Research Assistant',
+      from: 'January 2021',
+      to: 'February 2022',
+      companyLink: 'https://www.stust.edu.tw/en/',
     },
   ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Eötvös Loránd University',
+      degree: 'ERASMUS MUNDUS JOINT MASTER Degree',
+      from: 'September 2023',
+      to: 'June 2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Girona',
+      degree: 'ERASMUS MUNDUS JOINT MASTER Degree',
+      from: 'September 2022',
+      to: 'June 2023',
+    },
+    {
+      institution: 'Southern Taiwan University of Science and Technology',
+      degree: 'Bachelor of Science in Electrical Engineering',
+      from: 'September 2018',
+      to: 'January 2020',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Language-Driven Closed-Loop Grasping with Model-Predictive Trajectory Replanning',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'IEEE Robotics and Automation Letters 2024',
+      authors: 'Huy Hoang Nguyen,  Minh Nhat Vu, Florian Beck, Gerald Ebmer, Anh Nguyen, Andreas Kugi',
+      link: 'https://language-driven-closed-loop-grasping.github.io/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'a modular zero-shot framework for language-driven manipulation of (dynamic) objects through a closed-loop control system with real-time trajectory replanning and an online 6D object pose localization',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: 'The Development of a Machine Vision System for Postharvest Processing of Achacha Fruits',
+      conferenceName: 'Sriwijaya International Conference on Engineering and Technology 2021',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: 'Quoc Thien Pham, Hoang Huy Nguyen and Nai-Shang Liou',
+      link: 'https://pubs.aip.org/aip/acp/article-abstract/2689/1/030006/2903595/The-development-of-a-machine-vision-system-for?redirectedFrom=fulltext',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'This study developed and integrated a machine vision-based classification apparatus into a postharvest processing system of achacha fruits.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
