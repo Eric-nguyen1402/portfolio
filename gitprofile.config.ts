@@ -52,8 +52,8 @@ const CONFIG = {
           title: 'Pose-based EKF SLAM for Robot Localization',
           description:
             'A study on pose-based SLAM using EKF for robot localization, specifically focusing on a differential drive robot equipped with Lidar, IMU, and wheel velocity sensors. The mapping algorithm utilized is the Iterative Closest Point (ICP), while the Extended Kalman filter is employed for state estimation.',
-          youtubeUrl:
-            'https://youtu.be/XZIpZKQPmBY',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://eric-nguyen1402.github.io/pose-based-EKF-slam.github.io/',
         },
         {
@@ -81,7 +81,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'Hoang Huy(Eric) Nguyen',
+    linkedin: 'hoang-huy-eric-nguyen-6b0653199',
     GoogleScholar: 'Huy Hoang Nguyen',
     youtube: 'ericnguyen9607',
     phone: '',
