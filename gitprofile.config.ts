@@ -85,7 +85,7 @@ const CONFIG = {
     GoogleScholar: 'Huy Hoang Nguyen',
     youtube: 'ericnguyen9607',
     phone: '',
-    email: 'skynguyen1402@gmail.com',
+    email: 'huy-hoang.nguyen@ait.ac.at',
   },
   // resume: {
   //   fileUrl:
