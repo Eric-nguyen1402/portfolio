@@ -102,11 +102,18 @@ const CONFIG = {
     'Docker'
   ],
   experiences: [
+     {
+      company: 'AIT Austrian Institue of Technology',
+      position: 'Junior Scientist',
+      from: 'September 2024',
+      to: 'Present',
+      companyLink: 'https://www.ait.ac.at/ueber-das-ait/center/center-for-vision-automation-control/complex-dynamical-systems',
+    },
     {
       company: 'Vienna University of Technology',
       position: 'Visiting Researcher',
       from: 'January 2024',
-      to: 'Present',
+      to: 'August 2024',
       companyLink: 'https://www.tuwien.at/',
     },
     {
@@ -173,10 +180,19 @@ const CONFIG = {
     },
   ],
   publications: [
+     {
+      title: 'GraspMamba: A Mamba-based Language-driven Grasp Detection Framework with Hierarchical Feature Learning',
+      conferenceName: '',
+      journalName: 'arXiv',
+      authors: 'Huy Hoang Nguyen, An Vuong, Anh Nguyen, Ian Reid, Minh Nhat Vu',
+      link: 'https://arxiv.org/abs/2409.14403',
+      description:
+        'GraspMamba, a new language-driven grasp detection method that employs hierarchical feature fusion with Mamba vision to tackle these challenges',
+    },
     {
       title: 'Language-Driven Closed-Loop Grasping with Model-Predictive Trajectory Replanning',
       conferenceName: '',
-      journalName: 'IEEE Robotics and Automation Letters 2024',
+      journalName: 'arXiv',
       authors: 'Huy Hoang Nguyen,  Minh Nhat Vu, Florian Beck, Gerald Ebmer, Anh Nguyen, Andreas Kugi',
       link: 'https://language-driven-closed-loop-grasping.github.io/',
       description:
